@@ -9,6 +9,7 @@ Standards-Version: 3.9.1
 Homepage: http://kdesrc-build.kde.org/
 Vcs-Git: git://git.debian.org/pkg-kde/kde-std/kdesrc-build.git
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/kdesrc-build.git
+DM-Upload-Allowed: yes
 
 Package: kdesrc-build
 Architecture: all
