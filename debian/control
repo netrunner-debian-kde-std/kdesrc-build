@@ -12,7 +12,7 @@ Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/kdesrc-build.git
 
 Package: kdesrc-build
 Architecture: all
-Depends: ${misc:Depends}, perl
+Depends: ${misc:Depends}, ${perl:Depends}, perl (>= 5.8.0)
 Description: tool for building KDE from its source repositories
  kdesrc-build provides an easy way to build KDE, downloading the development
  version from the repositories and compiling it.
