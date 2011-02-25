@@ -6,6 +6,9 @@ Uploaders: Pino Toscano <pino@kde.org>
 Build-Depends: debhelper (>= 7.3.16), pkg-kde-tools (>= 0.5),
  cmake, kdelibs5-dev (>= 4:4.2.2)
 Standards-Version: 3.9.1
+Homepage: http://kdesrc-build.kde.org/
+Vcs-Git: git://git.debian.org/pkg-kde/kde-std/kdesrc-build.git
+Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-std/kdesrc-build.git
 
 Package: kdesrc-build
 Architecture: all
