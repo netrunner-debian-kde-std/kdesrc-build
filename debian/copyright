@@ -1,0 +1,29 @@
+It was downloaded from http://kdesrc-build.kde.org/
+
+Upstream authors are:
+
+    Michael Pyne <mpyne@kde.org>
+
+Contributors include:
+    David Faure <dfaure@kde.org>
+    Thiago Macieira <thiago@kde.org>
+    Dirk Mueller <dirk@kde.org>
+    Stephen Kulow <coolo@kde.org>
+    Raphael Kubo da Costa <kubito@gmail.com>
+
+Copyright:
+
+    Copyright © 2003-2010 Michael Pyne <mpyne@kde.org>
+
+License:
+
+    | You may use, alter, and redistribute this software under the terms
+    | of the GNU General Public License, v2 (or any later version).
+
+    You can find the complete text of the license GPL at
+    `/usr/share/common-licenses/GPL-2' and `/usr/share/common-licenses/GPL-3'
+
+
+The Debian packaging is:
+    Copyright 2011, Pino Toscano <pino@kde.org>
+And it is licensed under the GPL v2+ license, see above.
