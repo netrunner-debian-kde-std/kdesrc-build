@@ -1,0 +1,18 @@
+Source: kdesrc-build
+Section: kde
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Uploaders: Pino Toscano <pino@kde.org>
+Build-Depends: debhelper (>= 7.3.16), pkg-kde-tools (>= 0.5),
+ cmake, kdelibs5-dev (>= 4:4.2.2)
+Standards-Version: 3.9.1
+
+Package: kdesrc-build
+Architecture: all
+Depends: ${misc:Depends}, perl
+Description: tool for building KDE from its source repositories
+ kdesrc-build provides an easy way to build KDE, downloading the development
+ version from the repositories and compiling it.
+ .
+ It was previously known as kdesvn-build, and part of the KDE Software
+ Development Kit module.

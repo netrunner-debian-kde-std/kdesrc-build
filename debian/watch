@@ -1,0 +1,3 @@
+version=3
+
+http://kdesrc-build.kde.org/releases/ kdesrc-build-(.*).tar.bz2

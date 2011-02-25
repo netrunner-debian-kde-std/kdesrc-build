@@ -1,0 +1,5 @@
+kdesrc-build (1.12.1-0r1) unstable; urgency=low
+
+  * Initial release. (Closes: #nnnnnn)
+
+ -- Pino Toscano <pino@kde.org>  Fri, 25 Feb 2011 14:08:37 +0100
