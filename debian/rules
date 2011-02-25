@@ -1,7 +1,7 @@
 #!/usr/bin/make -f
 
 %:
-	dh --with kde $@
+	dh $@ --with kde
 
 .PHONY: dh_auto_test
 
