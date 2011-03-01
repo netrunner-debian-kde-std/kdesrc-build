@@ -1,7 +1,16 @@
 #!/usr/bin/make -f
 
+TESTS_TMPDIR := $(CURDIR)/home_tests
+
 %:
 	dh $@ --with kde
 
-.PHONY: override_dh_auto_test
+override_dh_auto_test:
+	rm -rf $(TESTS_TMPDIR)
+	mkdir -p $(TESTS_TMPDIR)
+	HOME=$(TESTS_TMPDIR) perl kdesrc-build-test.pl
+
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -rf $(TESTS_TMPDIR)
 
