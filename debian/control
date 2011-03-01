@@ -4,7 +4,8 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Pino Toscano <pino@kde.org>
 Build-Depends: debhelper (>= 7.3.16), pkg-kde-tools (>= 0.5),
- cmake, kdelibs5-dev (>= 4:4.2.2)
+ cmake, kdelibs5-dev (>= 4:4.2.2),
+ libxml-parser-perl, libwww-perl
 Standards-Version: 3.9.1
 Homepage: http://kdesrc-build.kde.org/
 Vcs-Git: git://git.debian.org/pkg-kde/kde-std/kdesrc-build.git
@@ -13,7 +14,8 @@ DM-Upload-Allowed: yes
 
 Package: kdesrc-build
 Architecture: all
-Depends: ${misc:Depends}, ${perl:Depends}, perl (>= 5.8.0)
+Depends: ${misc:Depends}, ${perl:Depends}, perl (>= 5.8.0),
+ libxml-parser-perl, libwww-perl
 Description: tool for building KDE from its source repositories
  kdesrc-build provides an easy way to build KDE, downloading the development
  version from the repositories and compiling it.
