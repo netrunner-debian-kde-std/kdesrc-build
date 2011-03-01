@@ -14,7 +14,7 @@ DM-Upload-Allowed: yes
 
 Package: kdesrc-build
 Architecture: all
-Depends: ${misc:Depends}, ${perl:Depends}, perl (>= 5.8.0),
+Depends: ${misc:Depends}, ${perl:Depends},
  libxml-parser-perl, libwww-perl
 Recommends: git, subversion, gcc, g++, cmake, make
 Description: tool for building KDE from its source repositories

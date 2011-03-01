@@ -7,6 +7,7 @@ kdesrc-build (1.13-0r1) UNRELEASED; urgency=low
   * Update copyright.
   * Run the test suite during the build, relocating the $HOME for it in
     a subdirectory of the sources.
+  * Drop versioned depend on perl >= 5.8.0, ${perl:Depends} is enough.
 
  -- Pino Toscano <pino@kde.org>  Tue, 01 Mar 2011 10:01:41 +0100
 
