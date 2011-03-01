@@ -3,6 +3,7 @@ kdesrc-build (1.13-0r1) UNRELEASED; urgency=low
   * New upstream release.
   * Depend on libxml-parser-perl and libwww-perl, used by kdesrc-build.
     Also, build-depend on them, so we can run the test suite.
+  * Recommend git, subversion, gcc, g++, cmake, make.
 
  -- Pino Toscano <pino@kde.org>  Tue, 01 Mar 2011 10:01:41 +0100
 
