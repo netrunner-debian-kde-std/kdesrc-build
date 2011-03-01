@@ -1,3 +1,9 @@
+kdesrc-build (1.13-0r1) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Pino Toscano <pino@kde.org>  Tue, 01 Mar 2011 10:01:41 +0100
+
 kdesrc-build (1.12.1-1) unstable; urgency=low
 
   * Initial release.
