@@ -1,4 +1,4 @@
-kdesrc-build (1.14-0r1) UNRELEASED; urgency=low
+kdesrc-build (1.14-1) unstable; urgency=low
 
   * New upstream release.
   * Drop patch build-system.diff, upstream now ships also the cmake build
@@ -8,7 +8,7 @@ kdesrc-build (1.14-0r1) UNRELEASED; urgency=low
   * Remove "DM-Upload-Allowed: yes" from control, no more needed now.
   * Bump Standards-Version to 3.9.2, no changes required.
 
- -- Pino Toscano <pino@debian.org>  Thu, 14 Jul 2011 18:16:28 +0200
+ -- Pino Toscano <pino@debian.org>  Sun, 18 Sep 2011 12:22:22 +0200
 
 kdesrc-build (1.13-1) unstable; urgency=low
 
