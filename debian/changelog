@@ -3,6 +3,7 @@ kdesrc-build (1.14-0r1) UNRELEASED; urgency=low
   * New upstream release.
   * Drop patch build-system.diff, upstream now ships also the cmake build
     system.
+  * Small copyright update.
   * Switch to my @debian.org address, I'm a DD now.
   * Remove "DM-Upload-Allowed: yes" from control, no more needed now.
 
