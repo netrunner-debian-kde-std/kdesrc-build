@@ -16,6 +16,7 @@ Architecture: all
 Depends: ${misc:Depends}, ${perl:Depends},
  libxml-parser-perl, libwww-perl
 Recommends: git, subversion, gcc, g++, cmake, make
+Suggests: bzr
 Description: tool for building KDE from its source repositories
  kdesrc-build provides an easy way to build KDE, downloading the development
  version from the repositories and compiling it.
