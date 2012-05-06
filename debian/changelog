@@ -1,6 +1,7 @@
 kdesrc-build (1.15-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Bump Standards-Version to 3.9.3, no changes required.
   * Update copyright.
 
  -- Pino Toscano <pino@debian.org>  Sun, 06 May 2012 18:33:21 +0200
