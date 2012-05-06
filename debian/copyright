@@ -4,7 +4,7 @@ Upstream-Contact: Michael Pyne <mpyne@kde.org>
 Source: http://kdesrc-build.kde.org
 
 Files: *
-Copyright: 2003-2011, Michael Pyne <mpyne@kde.org>
+Copyright: 2003-2012, Michael Pyne <mpyne@kde.org>
            2005, 2006, 2008 - 2011, David Faure <faure@kde.org>
            2005, Thiago Macieira <thiago@kde.org>
            2006, Stephan Kulow <coolo@kde.org>
@@ -20,7 +20,7 @@ Copyright: 2011, Michael Pyne <mpyne@kde.org>
 License: BSD-2-clause
 
 Files: doc/*.docbook
-Copyright: 2005-2008, 2010-2011, Michael Pyne <mpyne@kde.org>
+Copyright: 2005-2008, 2010-2012, Michael Pyne <mpyne@kde.org>
            2005, Carlos Leonhard Woelz <carloswoelz@imap-mail.com>
            2009, Burkhard Lück <lueck@hube-lueck.de>
            2007, 2011, Federico Zenith <federico.zenith@members.fsf.org>
@@ -28,7 +28,7 @@ Copyright: 2005-2008, 2010-2011, Michael Pyne <mpyne@kde.org>
 License: GFDL-NIV-1.2+
 
 Files: debian/*
-Copyright: 2011, Pino Toscano <pino@debian.org>
+Copyright: 2011-2012, Pino Toscano <pino@debian.org>
 License: GPL-2+
 
 License: BSD-2-clause
